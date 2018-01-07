@@ -22,9 +22,9 @@ Feature: Test the Login Page of Mercury Tours
 
   @Smoke
   Scenario: Check that we can login
-    Given We are on the login page
-    When Enter my information
-    Then I should be at the find flights page
+    Given Open Firefox and access the Guru99 practice application
+    When Enter username and password
+    Then Reset the input fields
 
   #@tag2
   #Scenario Outline: Title of your scenario outline
